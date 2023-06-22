@@ -13,7 +13,7 @@ The process of unsupervised image clustering involves extracting meaningful feat
 
 - **Clustering Algorithms**: Various clustering algorithms can be employed for unsupervised image clustering, such as k-means, hierarchical clustering, or density-based clustering. These algorithms iteratively assign images to clusters based on their similarity, aiming to optimize a defined objective function.
 
-## Code Example
+## Code 
 
 Here's an example code snippet demonstrating unsupervised image clustering using the k-means algorithm:
 
@@ -36,7 +36,7 @@ var unsupervised=sentinelCollection.cluster(clusterer);
 Map.addLayer(unsupervised.randomVisualizer(),{},'clusters');
 ```
 
-## Image Example
+## Result Image
 
 
 ![Punjab_clusttering](https://github.com/RahulKumar-007/Remote-Sensing-and-Satellite-imagery/assets/117337265/9dc881b1-0934-4f22-89e7-56e1fa600e88)
