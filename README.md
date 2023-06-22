@@ -2,6 +2,10 @@
 
 This repository is dedicated to satellite imaging and remote sensing, providing a collection of resources, tools, and code related to these fields. Whether you're a researcher, analyst, or enthusiast, this repository aims to assist you in understanding and working with satellite imagery and remote sensing data.
 
+![satellite-remote-sensing](https://github.com/RahulKumar-007/Remote-Sensing-and-Satellite-imagery/assets/117337265/685643ab-307d-40b0-b57e-f201ea3dec57)
+
+
+
 ## Contents
 
 The repository includes the following:
@@ -10,7 +14,7 @@ The repository includes the following:
 
 2. **Code**: Explore the `code` directory to find scripts and code snippets for working with satellite imagery and remote sensing data. These code examples cover a wide range of tasks, such as data preprocessing, image classification, feature extraction, and more.
 
-3. **Tutorials**: The `tutorials` folder provides step-by-step guides and tutorials to help you get started with satellite imaging and remote sensing. Each tutorial includes explanations, code samples, and accompanying datasets, allowing you to learn and apply concepts in a practical manner.
+3. **Google Earth**: this Section contains  my codes and results on Supervised and Unsupervised Satellite image clustering using the Google earth which provides a space which integrates scripting and visualization with a vast amount of repositories of satellite data and algorithms .
 
 4. **Resources**: This section contains additional resources, such as research papers, articles, and reference guides, that cover various aspects of satellite imaging and remote sensing. These materials are curated to provide a deeper understanding of the field and assist with further exploration.
 
