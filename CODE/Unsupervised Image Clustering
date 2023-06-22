@@ -1,0 +1,16 @@
+var sentinelCollection = ee.ImageCollection('COPERNICUS/S2_SR')
+.filterDate('2022-10-01', '2023-03-30')
+// Pre-filter to get less cloudy granules.
+.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 20))
+.filterBounds(Punjab)  // punjab is the preimported shape file of Punjab
+.median();
+Map.addLayer(sentinelCollection,{bands:["B4" ,"B3" ,"B2"]});
+var training=sentinelCollection.sample({
+region:Punjab,
+scale:30,
+numPixels:5000,
+tileScale: 4
+});
+var clusterer=ee.Clusterer.wekaKMeans(5).train(training);
+var unsupervised=sentinelCollection.cluster(clusterer);
+Map.addLayer(unsupervised.randomVisualizer(),{},'clusters');
